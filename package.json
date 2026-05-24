@@ -1,5 +1,5 @@
 {
-  "name": "xls-export",
+  "name": "@dubasdey/xlsx-export",
   "version": "0.1.0",
   "description": "Angular 21 compatible XLSX exporter with zero external dependencies.",
   "main": "dist/index.js",
@@ -10,6 +10,9 @@
       "require": "./dist/index.js",
       "types": "./dist/index.d.ts"
     }
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "files": ["dist"],
   "scripts": {

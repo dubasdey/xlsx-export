@@ -14,7 +14,7 @@ Angular 21 compatible package for generating Excel `.xlsx` files without externa
 ## Usage
 
 ```ts
-import { ExcelExportService } from 'xls-export';
+import { ExcelExportService } from '@dubasdey/xlsx-export';
 
 const data = [
   { Name: 'Ana', Age: 28, Active: true },
@@ -32,7 +32,7 @@ service.save(data, { filename: 'clients.xlsx' });
 
 ```ts
 import { Component } from '@angular/core';
-import { ExcelExportService } from 'xls-export';
+import { ExcelExportService } from '@dubasdey/xlsx-export';
 
 @Component({
   selector: 'app-export-demo',
